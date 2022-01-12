@@ -21,13 +21,13 @@ Post.init(
             allowNull: false,
         },
         content: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false, 
         },
         date_created: {
             type: DataTypes.DATE,
             allowNull: false,
-            defaultValue: DataTypes.NOW
+            defaultValue: DataTypes.NOW,
         },
         user_id: {
             type: DataTypes.INTEGER,
@@ -36,7 +36,14 @@ Post.init(
                 key:'id',
             },
         },
-    }    
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true, 
+        modelName: 'post',
+      }    
 );
 
 //module export

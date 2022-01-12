@@ -1,5 +1,5 @@
 //import modules (sequelize and dotenv)
-const Sequelize = require('sequelize')
+const Sequelize = require('sequelize');
 require('dotenv').config();
 
 //set sequelize variable;
