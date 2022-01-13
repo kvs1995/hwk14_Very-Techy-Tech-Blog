@@ -1,0 +1,105 @@
+body {
+  background-color: beige;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+
+nav a {
+  font-size: 150%!important;
+  padding: 0.728rem 2rem;  
+  color:beige;
+}
+
+nav a:hover {
+  color:rgb(233, 133, 93);
+  cursor: pointer;
+}
+header {
+  background-color: #4b1228;
+
+}
+
+.custom-h2 h2 {
+  background: beige;
+  padding: 0.728rem;
+  color:#4b1228;
+  margin-left: 2.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(199, 198, 198);
+}
+
+.custom-h2 {
+  color:rgb(233, 133, 93)
+}
+
+.login-signup-container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.login-signup {
+  border: 5px  solid #4b1228 !important;
+  /* padding: 1.5rem; */
+  padding: 0px 15px;
+}
+
+.login-title {
+  background-color: #4b1228;
+  color: beige;
+}
+
+.login-title p {
+  font-size: 21px;
+  margin:0px;
+  padding: 0.25rem 1rem;
+  margin-bottom: 5px;
+}
+
+.custom-login-form {
+  margin: 5px 10px;
+  color: #4b1228;
+}
+
+.switch-login-signup {
+  margin-bottom: 1rem;
+  font-size: 1.17rem;
+  padding: 0px 0.25rem;
+
+}
+.switch-login-signup a {
+  color:rgb(233, 133, 93) !important;
+  font-weight: bold;
+}
+
+.switch-login-signup a:hover {
+  color: #4b1228 !important;
+}
+
+.form-group {
+  margin: 0px !important;
+}
+
+.login-button {
+  width: 100%;
+  /* padding: 8px 19.2px; */
+  margin: 0.625rem 0px;
+  background-color: rgb(134, 32, 63)!important;
+  font-size: 1.27rem;
+  color: beige;
+}
+
+.login-button:hover {  
+  background-color: rgb(233, 133, 93) !important;
+
+}
+
