@@ -1,6 +1,6 @@
 //import modules
 const router = require('express').Router();
-const { Post, User, Comment } = require('../models');
+const { Post, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 
@@ -25,9 +25,15 @@ router.get('/', async (req, res) => {
       posts, 
       logged_in: req.session.logged_in
     });
+
+    //INSOMNIA CHECK
+    // res.status(200).json(posts);
+  
   } catch (err) {
     res.status(500).json(err);
     // console.log('1st GET homeRoutes Error: ', err)
   }
-
 }) ;
+
+
+module.exports = router; 

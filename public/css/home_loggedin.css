@@ -1,26 +1,24 @@
-
-:root {
-  --light: beige;
-  --peach: rgb(233, 133, 93);
-  --dark: #4b1228;
-  --button: rgb(134, 32, 63);
-}
-
 body {
   background-color: beige;
 }
 
-header {
-  background-color: #4b1228;
-}
-
-#nav-logout, #nav-login {
+/* .no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+} */
+#logout {
   text-decoration: none;
   background: none;
   border: none;
+
 }
 
-nav a {
+nav a, #logout {
   font-size: 150%!important;
   padding: 0.728rem 2rem;  
   color:beige;
@@ -30,10 +28,13 @@ nav a:hover {
   color:rgb(233, 133, 93);
   cursor: pointer;
 }
+header {
+  background-color: #4b1228;
 
+}
 
 .custom-h2 h2 {
-  background: rgb(211, 211, 192);
+  background: beige;
   padding: 0.728rem;
   color:#4b1228;
   margin-left: 2.5rem;
